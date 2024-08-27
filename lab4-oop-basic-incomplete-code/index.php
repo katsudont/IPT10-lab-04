@@ -3,13 +3,14 @@
 require "Profile.php";
 
 $profile = new Profile(
-    "Dela Cruz",
-    "Juan",
-    "Dipasisiil"
+    "Bernardo",
+    "Jeannie Darci",
+    "Tengco"
 );
 
-$profile->setEmail('juan@delacruz.ph');
-$profile->setAddress('Barangay Mintal, Davao City, Philippines 8000');
+$profile->setEmail('bernardo.jeanniedarci@auf.edu.ph');
+$profile->setAddress('Barangay Cuayan, Angeles City, Pampanga');
+$profile->setFavoriteQuote('It is very okay to not know yet.')
 
 ?>
 <!DOCTYPE html>
