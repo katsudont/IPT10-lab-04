@@ -1,6 +1,6 @@
 <?php 
 
-class CurrentAccount{
+class CurrentAccount extends Account{
 
     public $account_no;
     public $balance;
